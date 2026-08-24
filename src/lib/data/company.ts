@@ -1,13 +1,13 @@
 export const company = {
-  name: "Calijackson Resources Limited",
-  shortName: "Calijackson",
+  name: "Newline West Africa Limited",
+  shortName: "Newline",
   rcNumber: "RC867472",
   founded: 2010,
   foundedDate: "February 4, 2010",
   tagline: "Engineering Excellence. Infrastructure That Lasts.",
   subTagline:
     "Delivering construction, electrification, water resources engineering, procurement, and project management solutions across Nigeria.",
-  email: "calijacksonresourcesltd@gmail.com",
+  email: "",
   phones: ["08033156417", "07025017498"],
   offices: [
     {
@@ -29,7 +29,7 @@ export const company = {
     { day: "Sunday", hours: "Closed" },
   ],
   vision:
-    "To maintain and strengthen its core engineering business, to develop new skills and activities, and to respond to the changing needs and markets. Calijackson Resources Limited's strategy for sustained growth is anchored in the development of world-class products, its far-reaching network and its financing capabilities.",
+    "To maintain and strengthen its core engineering business, to develop new skills and activities, and to respond to the changing needs and markets. Newline West Africa Limited's strategy for sustained growth is anchored in the development of world-class products, its far-reaching network and its financing capabilities.",
   mission:
     "To be Nigeria's number one leading construction, electrical/hydro engineering, procurement, furniture, fumigation, computer and communication systems maintenance, petroleum products supply and distribution, and automobile dealership company — serving selected industry sectors and geographic markets through the know-how of our people, contributing to the success of our clients through value-added services and continuous investment in our technical and managerial competence.",
   values: [
@@ -64,7 +64,7 @@ export const company = {
       year: "2010",
       title: "Company Founded",
       description:
-        "Calijackson Resources Limited was incorporated on 4th February 2010, with a main focus on construction and electrical engineering services.",
+        "Newline West Africa Limited was incorporated on 4th February 2010, with a main focus on construction and electrical engineering services.",
     },
     {
       year: "2012",

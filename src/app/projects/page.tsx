@@ -7,7 +7,7 @@ import { CtaSection } from "@/components/shared/cta-section";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Explore construction, road, water resources and electrification projects delivered by Calijackson Resources Limited across Nigeria.",
+    "Explore construction, road, water resources and electrification projects delivered by Newline West Africa Limited across Nigeria.",
 };
 
 export default function ProjectsPage() {

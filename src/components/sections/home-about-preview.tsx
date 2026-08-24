@@ -18,7 +18,7 @@ export function HomeAboutPreview() {
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl">
             <Image
               src="/images/site/building-construction-1.png"
-              alt="Calijackson Resources Limited building construction project"
+              alt="Newline West Africa Limited building construction project"
               fill
               className="object-cover"
             />
@@ -33,9 +33,9 @@ export function HomeAboutPreview() {
 
         <div>
           <SectionHeading
-            eyebrow="About Calijackson Resources"
+            eyebrow="About Newline West Africa"
             title="A trusted partner for Nigeria's infrastructure development"
-            description="Calijackson Resources Limited is a wholly indigenous Nigerian company specializing in engineering, construction, electrification, water resources, procurement and project management — rendering services to government, corporate bodies, institutions and private individuals across Nigeria."
+            description="Newline West Africa Limited is a wholly indigenous Nigerian company specializing in engineering, construction, electrification, water resources, procurement and project management — rendering services to government, corporate bodies, institutions and private individuals across Nigeria."
           />
           <ul className="mt-7 space-y-3">
             {points.map((point) => (

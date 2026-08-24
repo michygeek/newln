@@ -14,7 +14,7 @@ export function DownloadProfileButton({
       nativeButton={false}
       className={className}
       render={
-        <a href="/downloads/Calijackson-Resources-Company-Profile.pdf" download>
+        <a href="/downloads/Newline-West-Africa-Company-Profile.pdf" download>
           <Download className="size-4" />
           Download Company Profile
         </a>

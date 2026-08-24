@@ -25,16 +25,16 @@ export function SiteFooter() {
           <Link href="/" className="flex items-center gap-3">
             <span className="flex h-12 items-center rounded-md bg-white px-2.5">
               <Image
-                src="/calilogo.png"
-                alt="Calijackson Resources Limited"
-                width={3366}
-                height={1479}
+                src="/newlinelogo.png"
+                alt="Newline West Africa Limited"
+                width={2172}
+                height={724}
                 className="h-8 w-auto object-contain"
               />
             </span>
             <span className="flex flex-col leading-tight">
               <span className="font-heading text-base font-bold text-white">
-                Calijackson Resources
+                Newline West Africa
               </span>
               <span className="text-[11px] tracking-[0.18em] text-gold uppercase">
                 Limited
@@ -117,15 +117,17 @@ export function SiteFooter() {
                 {company.phones[0]} / {company.phones[1]}
               </a>
             </li>
-            <li className="flex items-center gap-3">
-              <Mail className="size-4 shrink-0 text-gold" />
-              <a
-                href={`mailto:${company.email}`}
-                className="text-white/70 hover:text-white"
-              >
-                {company.email}
-              </a>
-            </li>
+            {company.email && (
+              <li className="flex items-center gap-3">
+                <Mail className="size-4 shrink-0 text-gold" />
+                <a
+                  href={`mailto:${company.email}`}
+                  className="text-white/70 hover:text-white"
+                >
+                  {company.email}
+                </a>
+              </li>
+            )}
           </ul>
         </div>
       </div>
@@ -133,7 +135,7 @@ export function SiteFooter() {
       <div className="border-t border-white/10">
         <div className="container-custom flex items-center justify-center py-6 text-xs text-white/50">
           <p>
-            &copy; {year} Calijackson Resources Limited. All rights reserved.
+            &copy; {year} Newline West Africa Limited. All rights reserved.
           </p>
         </div>
       </div>

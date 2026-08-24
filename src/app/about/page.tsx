@@ -13,14 +13,14 @@ import { company } from "@/lib/data/company";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Calijackson Resources Limited (RC867472) is a wholly indigenous Nigerian engineering, construction and project management company, incorporated in 2010.",
+    "Newline West Africa Limited (RC867472) is a wholly indigenous Nigerian engineering, construction and project management company, incorporated in 2010.",
 };
 
 export default function AboutPage() {
   return (
     <>
       <PageHero
-        title="About Calijackson Resources"
+        title="About Newline West Africa"
         description="A wholly indigenous Nigerian engineering and construction company built on technical competence and accountability."
         image="/images/stock/building-renovation-interior.jpg"
         breadcrumb="About Us"
@@ -36,7 +36,7 @@ export default function AboutPage() {
             />
             <div className="mt-6 space-y-4 text-sm leading-relaxed text-foreground/80 sm:text-base">
               <p>
-                Calijackson Resources Limited is duly registered with the
+                Newline West Africa Limited is duly registered with the
                 Corporate Affairs Commission of Nigeria as a private limited
                 liability company under the Companies and Allied Matters Act,
                 with registration number {company.rcNumber}. We are one of
@@ -70,7 +70,7 @@ export default function AboutPage() {
             <div className="relative aspect-[3/4] overflow-hidden rounded-xl">
               <Image
                 src="/images/site/drilling-rig-workers.png"
-                alt="Calijackson Resources drilling and piling works"
+                alt="Newline West Africa drilling and piling works"
                 fill
                 className="object-cover"
               />
@@ -78,7 +78,7 @@ export default function AboutPage() {
             <div className="relative mt-8 aspect-[3/4] overflow-hidden rounded-xl">
               <Image
                 src="/images/site/road-roller-compaction-1.png"
-                alt="Calijackson Resources road construction works"
+                alt="Newline West Africa road construction works"
                 fill
                 className="object-cover"
               />
@@ -93,7 +93,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Brief History"
             title="Our journey since 2010"
-            description={`Calijackson Resources Limited was conceived on ${company.foundedDate}, following the need for reputable construction firms to handle the various aspects of construction works in Nigeria.`}
+            description={`Newline West Africa Limited was conceived on ${company.foundedDate}, following the need for reputable construction firms to handle the various aspects of construction works in Nigeria.`}
             align="center"
             className="mx-auto"
           />

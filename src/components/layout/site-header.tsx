@@ -46,13 +46,15 @@ export function SiteHeader() {
             <Phone className="size-3" />
             {company.phones[0]}
           </a>
-          <a
-            href={`mailto:${company.email}`}
-            className="flex items-center gap-1.5 hover:text-gold transition-colors"
-          >
-            <Mail className="size-3" />
-            {company.email}
-          </a>
+          {company.email && (
+            <a
+              href={`mailto:${company.email}`}
+              className="flex items-center gap-1.5 hover:text-gold transition-colors"
+            >
+              <Mail className="size-3" />
+              {company.email}
+            </a>
+          )}
         </div>
       </div>
 
@@ -62,17 +64,17 @@ export function SiteHeader() {
           <Link href="/" className="flex items-center gap-3 shrink-0">
             <span className="flex h-12 items-center rounded-md bg-white px-2.5">
               <Image
-                src="/calilogo.png"
-                alt="Calijackson Resources Limited"
-                width={3366}
-                height={1479}
+                src="/newlinelogo.png"
+                alt="Newline West Africa Limited"
+                width={2172}
+                height={724}
                 priority
                 className="h-8 w-auto object-contain"
               />
             </span>
             <span className="hidden flex-col leading-tight sm:flex">
               <span className="font-heading text-base font-bold text-white">
-                Calijackson Resources
+                Newline West Africa
               </span>
               <span className="text-[11px] tracking-[0.18em] text-gold uppercase">
                 Limited
@@ -198,13 +200,13 @@ export function SiteHeader() {
               <SheetHeader className="border-b px-5 py-4">
                 <SheetTitle className="flex items-center gap-2.5 font-heading text-navy">
                   <Image
-                    src="/calilogo.png"
-                    alt="Calijackson Resources Limited"
-                    width={3366}
-                    height={1479}
+                    src="/newlinelogo.png"
+                    alt="Newline West Africa Limited"
+                    width={2172}
+                    height={724}
                     className="h-7 w-auto object-contain"
                   />
-                  Calijackson Resources
+                  Newline West Africa
                 </SheetTitle>
               </SheetHeader>
               <div className="flex flex-col gap-1 overflow-y-auto p-4">

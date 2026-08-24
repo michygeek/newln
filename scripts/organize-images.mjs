@@ -41,7 +41,7 @@ const mapping = [
   ["rebar-mats-construction.png", "page26-img_p25_1.png"],
   ["bulldozer-operator-2.png", "page26-img_p25_2.png"],
   // Generic equipment / technology illustrations (used for Services page,
-  // not presented as specific Calijackson project case studies)
+  // not presented as specific Newline West Africa project case studies)
   ["equip-transformer-factory.png", "page16-img_p15_1.png"],
   ["equip-transformer-install.png", "page15-img_p14_2.png"],
   ["equip-solar-water-heater-diagram.png", "page15-img_p14_1.png"],

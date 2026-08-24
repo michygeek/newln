@@ -30,7 +30,7 @@ export function ContactForm() {
           Message Sent
         </h3>
         <p className="mt-2 max-w-sm text-sm text-muted-foreground">
-          Thank you for reaching out to Calijackson Resources Limited. A
+          Thank you for reaching out to Newline West Africa Limited. A
           member of our team will respond within 1-2 business days.
         </p>
         <Button variant="outline" className="mt-6" onClick={() => setStatus("idle")}>

@@ -14,7 +14,7 @@ export function HomeWhyUs() {
       />
       <div className="container-custom relative">
         <SectionHeading
-          eyebrow="Why Choose Calijackson"
+          eyebrow="Why Choose Newline"
           title="Built on engineering discipline and accountability"
           description="From government infrastructure to private estate development, clients trust us for disciplined execution and transparent project delivery."
           align="center"

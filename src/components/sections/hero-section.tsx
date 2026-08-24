@@ -40,7 +40,7 @@ export function HeroSection() {
           >
             <Image
               src={slides[index]}
-              alt="Calijackson Resources engineering and construction projects"
+              alt="Newline West Africa engineering and construction projects"
               fill
               priority
               className="object-cover"

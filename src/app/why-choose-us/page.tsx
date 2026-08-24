@@ -37,7 +37,7 @@ export default function WhyChooseUsPage() {
   return (
     <>
       <PageHero
-        title="Why Choose Calijackson Resources"
+        title="Why Choose Newline West Africa"
         description="Seven reasons clients across Nigeria trust us with their most important infrastructure projects."
         image="/images/stock/engineering-drawing-review.jpg"
         breadcrumb="Why Choose Us"

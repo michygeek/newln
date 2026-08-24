@@ -9,7 +9,7 @@ import { company } from "@/lib/data/company";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with Calijackson Resources Limited. Offices in Abuja and Enugu, Nigeria.",
+    "Get in touch with Newline West Africa Limited. Offices in Abuja and Enugu, Nigeria.",
 };
 
 export default function ContactPage() {
@@ -54,15 +54,17 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <span className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-navy/5 text-navy">
-                  <Mail className="size-5" />
-                </span>
-                <div>
-                  <p className="font-heading text-sm font-bold text-navy">Email</p>
-                  <p className="text-sm text-muted-foreground">{company.email}</p>
+              {company.email && (
+                <div className="flex items-start gap-4">
+                  <span className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-navy/5 text-navy">
+                    <Mail className="size-5" />
+                  </span>
+                  <div>
+                    <p className="font-heading text-sm font-bold text-navy">Email</p>
+                    <p className="text-sm text-muted-foreground">{company.email}</p>
+                  </div>
                 </div>
-              </div>
+              )}
 
               <div className="flex items-start gap-4">
                 <span className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-navy/5 text-navy">
@@ -84,7 +86,7 @@ export default function ContactPage() {
 
             <div className="mt-8 overflow-hidden rounded-xl border border-border">
               <iframe
-                title="Calijackson Resources Limited - Head Office Location"
+                title="Newline West Africa Limited - Head Office Location"
                 src="https://www.google.com/maps?q=Suez+Crescent+Abacha+Estate+Wuse+Zone+4+Abuja+Nigeria&output=embed"
                 width="100%"
                 height="280"

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { projects } from "@/lib/data/projects";
 
-const siteUrl = "https://www.calijacksonresources.com";
+const siteUrl = "https://www.newlinewestafrica.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [

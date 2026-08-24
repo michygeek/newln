@@ -10,7 +10,7 @@ import { Building2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "Industries We Serve",
   description:
-    "Calijackson Resources Limited serves government, infrastructure, oil & gas, education, commercial, agriculture, water resources and energy sectors.",
+    "Newline West Africa Limited serves government, infrastructure, oil & gas, education, commercial, agriculture, water resources and energy sectors.",
 };
 
 export default function IndustriesPage() {

@@ -1,4 +1,4 @@
-// Extracts embedded raster images from the Calijackson company profile PDF
+// Extracts embedded raster images from the Newline West Africa company profile PDF
 // using pdfjs-dist (pure JS, no native deps) and writes them out as PNGs
 // via pngjs. Run with: node scripts/extract-pdf-images.mjs <input.pdf>
 import path from "path";

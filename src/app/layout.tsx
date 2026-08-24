@@ -23,19 +23,19 @@ const poppins = Poppins({
   display: "swap",
 });
 
-const siteUrl = "https://www.calijacksonresources.com";
+const siteUrl = "https://www.newlinewestafrica.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default:
-      "Calijackson Resources Limited | Engineering, Construction & Infrastructure",
-    template: "%s | Calijackson Resources Limited",
+      "Newline West Africa Limited | Engineering, Construction & Infrastructure",
+    template: "%s | Newline West Africa Limited",
   },
   description:
-    "Calijackson Resources Limited (RC867472) is a wholly indigenous Nigerian engineering, construction, electrification, water resources, procurement, and project management company delivering infrastructure since 2010.",
+    "Newline West Africa Limited (RC867472) is a wholly indigenous Nigerian engineering, construction, electrification, water resources, procurement, and project management company delivering infrastructure since 2010.",
   keywords: [
-    "Calijackson Resources Limited",
+    "Newline West Africa Limited",
     "Nigerian construction company",
     "engineering procurement Nigeria",
     "rural electrification Nigeria",
@@ -43,19 +43,19 @@ export const metadata: Metadata = {
     "road construction Abuja",
     "EPC contractor Nigeria",
   ],
-  authors: [{ name: "Calijackson Resources Limited" }],
+  authors: [{ name: "Newline West Africa Limited" }],
   openGraph: {
     type: "website",
     locale: "en_NG",
     url: siteUrl,
-    siteName: "Calijackson Resources Limited",
-    title: "Calijackson Resources Limited | Engineering Excellence. Infrastructure That Lasts.",
+    siteName: "Newline West Africa Limited",
+    title: "Newline West Africa Limited | Engineering Excellence. Infrastructure That Lasts.",
     description:
       "Delivering construction, electrification, water resources engineering, procurement, and project management solutions across Nigeria since 2010.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Calijackson Resources Limited",
+    title: "Newline West Africa Limited",
     description:
       "Engineering, construction, electrification, water resources and project management across Nigeria.",
   },

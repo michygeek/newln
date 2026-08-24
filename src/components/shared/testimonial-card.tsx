@@ -31,7 +31,7 @@ export function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "Calijackson Resources delivered our estate road and drainage project on schedule, with a level of professionalism that gave us full confidence throughout.",
+      "Newline West Africa delivered our estate road and drainage project on schedule, with a level of professionalism that gave us full confidence throughout.",
     name: "Estate Development Client",
     role: "Residential Estate, Abuja",
   },
@@ -43,7 +43,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "We engaged Calijackson for an internal electrification network and street lighting. The turnkey approach meant we dealt with one accountable team from start to finish.",
+      "We engaged Newline West Africa for an internal electrification network and street lighting. The turnkey approach meant we dealt with one accountable team from start to finish.",
     name: "Project Sponsor",
     role: "Private Estate, FCT",
   },
