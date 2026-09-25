@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Mail, Clock } from "lucide-react";
 
 import { PageHero } from "@/components/shared/page-hero";
 import { SectionHeading } from "@/components/shared/section-heading";
-import { ContactForm } from "@/components/sections/contact-form";
 import { company } from "@/lib/data/company";
 
 export const metadata: Metadata = {
@@ -23,7 +22,7 @@ export default function ContactPage() {
       />
 
       <section className="py-20 sm:py-28">
-        <div className="container-custom grid gap-14 lg:grid-cols-[1fr_1.2fr]">
+        <div className="container-custom max-w-3xl">
           <div>
             <SectionHeading eyebrow="Get In Touch" title="We'd love to hear from you" />
 
@@ -41,18 +40,6 @@ export default function ContactPage() {
                   </div>
                 </div>
               ))}
-
-              <div className="flex items-start gap-4">
-                <span className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-navy/5 text-navy">
-                  <Phone className="size-5" />
-                </span>
-                <div>
-                  <p className="font-heading text-sm font-bold text-navy">Phone</p>
-                  <p className="text-sm text-muted-foreground">
-                    {company.phones.join(" / ")}
-                  </p>
-                </div>
-              </div>
 
               {company.email && (
                 <div className="flex items-start gap-4">
@@ -93,17 +80,6 @@ export default function ContactPage() {
                 loading="lazy"
                 className="border-0"
               />
-            </div>
-          </div>
-
-          <div>
-            <SectionHeading
-              eyebrow="Send a Message"
-              title="Request a consultation"
-              description="Fill out the form and our team will get back to you within 1-2 business days."
-            />
-            <div className="mt-8">
-              <ContactForm />
             </div>
           </div>
         </div>

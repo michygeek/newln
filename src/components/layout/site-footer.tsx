@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Phone, Mail, MapPin, ArrowRight } from "lucide-react";
+import { Mail, MapPin, ArrowRight } from "lucide-react";
 
 import { company } from "@/lib/data/company";
 import { serviceCategories } from "@/lib/data/services";
@@ -107,15 +107,6 @@ export function SiteFooter() {
               <span className="text-white/70">
                 {company.offices[0].address}
               </span>
-            </li>
-            <li className="flex items-center gap-3">
-              <Phone className="size-4 shrink-0 text-gold" />
-              <a
-                href={`tel:${company.phones[0]}`}
-                className="text-white/70 hover:text-white"
-              >
-                {company.phones[0]} / {company.phones[1]}
-              </a>
             </li>
             {company.email && (
               <li className="flex items-center gap-3">

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Phone } from "lucide-react";
+import { ArrowRight, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { company } from "@/lib/data/company";
 
@@ -42,9 +42,9 @@ export function CtaSection() {
             nativeButton={false}
             className="h-12 border-white/20 bg-transparent px-7 text-white hover:bg-white/10"
             render={
-              <a href={`tel:${company.phones[0]}`}>
-                <Phone className="size-4" />
-                {company.phones[0]}
+              <a href={`mailto:${company.email}`}>
+                <Mail className="size-4" />
+                {company.email}
               </a>
             }
           />

@@ -7,7 +7,6 @@ import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import {
   Menu,
-  Phone,
   Mail,
   ChevronDown,
   ArrowRight,
@@ -39,13 +38,6 @@ export function SiteHeader() {
       {/* Top utility bar */}
       <div className="hidden bg-navy text-white/80 lg:block">
         <div className="container-custom flex h-9 items-center gap-6 text-xs">
-          <a
-            href={`tel:${company.phones[0]}`}
-            className="flex items-center gap-1.5 hover:text-gold transition-colors"
-          >
-            <Phone className="size-3" />
-            {company.phones[0]}
-          </a>
           {company.email && (
             <a
               href={`mailto:${company.email}`}
