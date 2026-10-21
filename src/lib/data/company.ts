@@ -7,7 +7,7 @@ export const company = {
   tagline: "Engineering Excellence. Infrastructure That Lasts.",
   subTagline:
     "Delivering construction, electrification, water resources engineering, procurement, and project management solutions across Nigeria.",
-  email: "chijioke_@newlinewestafrica.com",
+  email: "contact@newlinewestafrica.com",
   offices: [
     {
       label: "Head Office",
