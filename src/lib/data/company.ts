@@ -1,9 +1,9 @@
 export const company = {
   name: "Newline West Africa Limited",
   shortName: "Newline",
-  rcNumber: "RC867472",
-  founded: 2010,
-  foundedDate: "February 4, 2010",
+  rcNumber: "RC-333634",
+  founded: 1998,
+  foundedDate: "1998",
   tagline: "Engineering Excellence. Infrastructure That Lasts.",
   subTagline:
     "Delivering construction, electrification, water resources engineering, procurement, and project management solutions across Nigeria.",
@@ -11,7 +11,7 @@ export const company = {
   offices: [
     {
       label: "Head Office",
-      address: "No. 3A Suez Crescent, Abacha Estate, Wuse Zone 4, Abuja",
+      address: "Plot 576 Independence Avenue, Central Business District, Abuja",
     },
     {
       label: "Office",
@@ -60,10 +60,10 @@ export const company = {
   ],
   timeline: [
     {
-      year: "2010",
+      year: "1998",
       title: "Company Founded",
       description:
-        "Newline West Africa Limited was incorporated on 4th February 2010, with a main focus on construction and electrical engineering services.",
+        "Newline West Africa Limited was incorporated in 1998, with a main focus on construction and electrical engineering services.",
     },
     {
       year: "2012",
@@ -92,9 +92,9 @@ export const company = {
   ],
   whyChooseUs: [
     {
-      stat: "15+",
+      stat: "25+",
       label: "Years of Experience",
-      description: "Incorporated in 2010, serving government and private clients nationwide.",
+      description: "Incorporated in 1998, serving government and private clients nationwide.",
     },
     {
       stat: "100%",
@@ -116,7 +116,7 @@ export const company = {
     {
       title: "Indigenous Nigerian Company",
       description:
-        "Wholly owned and managed by Nigerians, registered under the Companies and Allied Matters Act (RC867472), with deep understanding of local working conditions.",
+        "Wholly owned and managed by Nigerians, registered under the Companies and Allied Matters Act (RC-333634), with deep understanding of local working conditions.",
     },
     {
       title: "Experienced Engineers",

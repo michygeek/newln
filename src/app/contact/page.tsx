@@ -74,7 +74,7 @@ export default function ContactPage() {
             <div className="mt-8 overflow-hidden rounded-xl border border-border">
               <iframe
                 title="Newline West Africa Limited - Head Office Location"
-                src="https://www.google.com/maps?q=Suez+Crescent+Abacha+Estate+Wuse+Zone+4+Abuja+Nigeria&output=embed"
+                src="https://www.google.com/maps?q=Plot+576+Independence+Avenue+Central+Business+District+Abuja+Nigeria&output=embed"
                 width="100%"
                 height="280"
                 loading="lazy"

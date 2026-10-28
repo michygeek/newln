@@ -95,7 +95,7 @@ export function HeroSection() {
 
         <div className="mt-16 grid max-w-2xl grid-cols-2 gap-6 border-t border-white/15 pt-8 sm:grid-cols-4">
           {[
-            { value: "15+", label: "Years Active" },
+            { value: "25+", label: "Years Active" },
             { value: "7", label: "Service Divisions" },
             { value: "100%", label: "Indigenous Company" },
             { value: "2", label: "Regional Offices" },

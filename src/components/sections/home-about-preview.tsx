@@ -4,7 +4,7 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { SectionHeading } from "@/components/shared/section-heading";
 
 const points = [
-  "Wholly indigenous Nigerian company, incorporated in 2010",
+  "Wholly indigenous Nigerian company, incorporated in 1998",
   "Experienced engineers across civil, electrical, mechanical and water disciplines",
   "Turnkey project delivery from design to commissioning",
   "Modern construction equipment and disciplined quality control",
@@ -24,9 +24,9 @@ export function HomeAboutPreview() {
             />
           </div>
           <div className="absolute -bottom-6 -right-6 hidden w-56 rounded-xl bg-navy p-5 text-white shadow-xl sm:block">
-            <p className="font-heading text-3xl font-bold text-gold">2010</p>
+            <p className="font-heading text-3xl font-bold text-gold">1998</p>
             <p className="mt-1 text-sm text-white/70">
-              Incorporated under CAMA, RC867472
+              Incorporated under CAMA, RC-333634
             </p>
           </div>
         </div>

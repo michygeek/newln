@@ -44,7 +44,7 @@ export function SiteFooter() {
           <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/60">
             A wholly indigenous Nigerian engineering, construction,
             electrification, water resources and project management company,
-            incorporated in 2010 ({company.rcNumber}).
+            incorporated in 1998 ({company.rcNumber}).
           </p>
           <div className="mt-6 flex items-center gap-3">
             {[FacebookIcon, LinkedInIcon, XIcon].map((Icon, i) => (

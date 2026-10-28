@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     template: "%s | Newline West Africa Limited",
   },
   description:
-    "Newline West Africa Limited (RC867472) is a wholly indigenous Nigerian engineering, construction, electrification, water resources, procurement, and project management company delivering infrastructure since 2010.",
+    "Newline West Africa Limited (RC-333634) is a wholly indigenous Nigerian engineering, construction, electrification, water resources, procurement, and project management company delivering infrastructure since 1998.",
   keywords: [
     "Newline West Africa Limited",
     "Nigerian construction company",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     siteName: "Newline West Africa Limited",
     title: "Newline West Africa Limited | Engineering Excellence. Infrastructure That Lasts.",
     description:
-      "Delivering construction, electrification, water resources engineering, procurement, and project management solutions across Nigeria since 2010.",
+      "Delivering construction, electrification, water resources engineering, procurement, and project management solutions across Nigeria since 1998.",
   },
   twitter: {
     card: "summary_large_image",

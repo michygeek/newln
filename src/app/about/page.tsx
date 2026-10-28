@@ -13,7 +13,7 @@ import { company } from "@/lib/data/company";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Newline West Africa Limited (RC867472) is a wholly indigenous Nigerian engineering, construction and project management company, incorporated in 2010.",
+    "Newline West Africa Limited (RC-333634) is a wholly indigenous Nigerian engineering, construction and project management company, incorporated in 1998.",
 };
 
 export default function AboutPage() {
@@ -32,7 +32,7 @@ export default function AboutPage() {
           <div>
             <SectionHeading
               eyebrow="Company Overview"
-              title="Engineering, construction & infrastructure since 2010"
+              title="Engineering, construction & infrastructure since 1998"
             />
             <div className="mt-6 space-y-4 text-sm leading-relaxed text-foreground/80 sm:text-base">
               <p>
@@ -92,8 +92,8 @@ export default function AboutPage() {
         <div className="container-custom">
           <SectionHeading
             eyebrow="Brief History"
-            title="Our journey since 2010"
-            description={`Newline West Africa Limited was conceived on ${company.foundedDate}, following the need for reputable construction firms to handle the various aspects of construction works in Nigeria.`}
+            title="Our journey since 1998"
+            description={`Newline West Africa Limited was conceived in ${company.foundedDate}, following the need for reputable construction firms to handle the various aspects of construction works in Nigeria.`}
             align="center"
             className="mx-auto"
           />
